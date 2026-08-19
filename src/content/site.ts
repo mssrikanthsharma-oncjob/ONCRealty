@@ -31,13 +31,12 @@ export const nav = {
 
 export const hero = {
   title: {
-    en: 'Small acts of care, done every day',
-    kn: 'ಪ್ರತಿದಿನವೂ ಒಂದೊಂದು ಸಣ್ಣ ಸೇವೆ',
+    en: 'Learning beyond books, for rural India',
+    kn: 'ಗ್ರಾಮೀಣ ಭಾರತಕ್ಕಾಗಿ, ಪುಸ್ತಕದ ಆಚೆಗಿನ ಕಲಿಕೆ',
   } as L,
-  // TODO: replace with the trust's own mission statement from onctrust.in
   lead: {
-    en: 'O Nanna Chetana Charitable Trust works with our community to support education, food security, health and dignity for those who need it most.',
-    kn: 'ಓ ನನ್ನ ಚೇತನ ಚಾರಿಟಬಲ್ ಟ್ರಸ್ಟ್ ಶಿಕ್ಷಣ, ಆಹಾರ, ಆರೋಗ್ಯ ಮತ್ತು ಘನತೆಯ ಬದುಕಿಗಾಗಿ ಅಗತ್ಯವಿರುವವರೊಂದಿಗೆ ಕೈಜೋಡಿಸಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ.',
+    en: 'O Nanna Chetana Charitable Trust helps children in rural India learn beyond books through gamified applied education, nurtures their talents and personality, and serves the community through care for the needy, health support and a greener earth.',
+    kn: 'ಓ ನನ್ನ ಚೇತನ ಚಾರಿಟಬಲ್ ಟ್ರಸ್ಟ್ ಗ್ರಾಮೀಣ ಭಾರತದ ಮಕ್ಕಳಿಗೆ ಆಟದ ಮೂಲಕ ಅನ್ವಯಿಕ ಶಿಕ್ಷಣ ನೀಡಿ ಪುಸ್ತಕದ ಆಚೆಗಿನ ಕಲಿಕೆಗೆ ದಾರಿ ಮಾಡುತ್ತದೆ; ಅವರ ಪ್ರತಿಭೆ ಮತ್ತು ವ್ಯಕ್ತಿತ್ವವನ್ನು ಬೆಳೆಸುತ್ತದೆ; ಅಗತ್ಯವಿರುವವರ ಸೇವೆ, ಆರೋಗ್ಯ ನೆರವು ಮತ್ತು ಹಸಿರು ಭೂಮಿಗಾಗಿ ಶ್ರಮಿಸುತ್ತದೆ.',
   } as L,
   ctaDonate: { en: 'Donate', kn: 'ದೇಣಿಗೆ ನೀಡಿ' } as L,
   ctaPrograms: { en: 'See our work', kn: 'ನಮ್ಮ ಕೆಲಸ ನೋಡಿ' } as L,
@@ -45,32 +44,50 @@ export const hero = {
 
 export const mission = {
   heading: { en: 'Our mission', kn: 'ನಮ್ಮ ಧ್ಯೇಯ' } as L,
-  // TODO: replace with the exact mission text from onctrust.in
   body: {
-    en: 'The trust takes its name from Kuvempu’s poem “O Nanna Chetana” — a call for the spirit to rise beyond boundaries. In that spirit, we serve without distinction of caste, creed or religion, and work so that every person in our community can live with education, health and dignity.',
-    kn: 'ಕುವೆಂಪು ಅವರ “ಓ ನನ್ನ ಚೇತನ” ಕವನದಿಂದ ಸ್ಫೂರ್ತಿ ಪಡೆದ ನಮ್ಮ ಟ್ರಸ್ಟ್, ಜಾತಿ, ಮತ, ಧರ್ಮದ ಭೇದವಿಲ್ಲದೆ ಸೇವೆ ಸಲ್ಲಿಸುತ್ತದೆ. ನಮ್ಮ ಸಮುದಾಯದ ಪ್ರತಿಯೊಬ್ಬರೂ ಶಿಕ್ಷಣ, ಆರೋಗ್ಯ ಮತ್ತು ಘನತೆಯಿಂದ ಬಾಳಬೇಕೆಂಬುದೇ ನಮ್ಮ ಗುರಿ.',
+    en: 'The trust takes its name from Kuvempu’s poem “O Nanna Chetana” — a call for the spirit to rise beyond boundaries. In that spirit, we work to educate children in rural India through applied, gamified learning that goes beyond books; to develop their personality through the six quotients (6Qs); to nurture their talents in sports, art, music and literature; and to serve the community — the needy, the sick, and the earth itself.',
+    kn: 'ಕುವೆಂಪು ಅವರ “ಓ ನನ್ನ ಚೇತನ” ಕವನದಿಂದ ಸ್ಫೂರ್ತಿ ಪಡೆದ ನಮ್ಮ ಟ್ರಸ್ಟ್, ಗ್ರಾಮೀಣ ಭಾರತದ ಮಕ್ಕಳಿಗೆ ಆಟದ ಮೂಲಕ ಅನ್ವಯಿಕ ಶಿಕ್ಷಣ ನೀಡಿ ಪುಸ್ತಕದ ಆಚೆಗಿನ ಕಲಿಕೆಗೆ ದಾರಿ ಮಾಡುತ್ತದೆ; ಆರು ಗುಣಗಳ (6Q) ಮೂಲಕ ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ; ಕ್ರೀಡೆ, ಕಲೆ, ಸಂಗೀತ, ಸಾಹಿತ್ಯದ ಪ್ರತಿಭೆಗೆ ಪ್ರೋತ್ಸಾಹ; ಜೊತೆಗೆ ಅಗತ್ಯವಿರುವವರ, ರೋಗಿಗಳ ಮತ್ತು ಪರಿಸರದ ಸೇವೆ — ಇದೇ ನಮ್ಮ ಧ್ಯೇಯ.',
   } as L,
 };
 
 export const objectives = {
   heading: { en: 'Our objectives', kn: 'ನಮ್ಮ ಉದ್ದೇಶಗಳು' } as L,
-  // TODO: replace with the actual objectives from the trust deed / onctrust.in
   items: [
     {
-      en: 'Support the education of children from underprivileged families',
-      kn: 'ಬಡ ಕುಟುಂಬಗಳ ಮಕ್ಕಳ ಶಿಕ್ಷಣಕ್ಕೆ ನೆರವು',
+      en: 'To educate students and children in rural India through physical and virtual gamified programs and seminars on applied education — so learning goes beyond books and develops genuine interest.',
+      kn: 'ಗ್ರಾಮೀಣ ಭಾರತದ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪ್ರತ್ಯಕ್ಷ ಮತ್ತು ಆನ್‌ಲೈನ್ ಆಟದ (ಗೇಮಿಫೈಡ್) ಕಾರ್ಯಕ್ರಮ ಹಾಗೂ ವಿಚಾರ ಸಂಕಿರಣಗಳ ಮೂಲಕ ಅನ್ವಯಿಕ ಶಿಕ್ಷಣ ನೀಡುವುದು — ಕಲಿಕೆ ಪುಸ್ತಕದ ಆಚೆಗೂ ಸಾಗಿ ನಿಜವಾದ ಆಸಕ್ತಿ ಬೆಳೆಯಲಿ.',
     },
     {
-      en: 'Provide food and essential supplies to those in need',
-      kn: 'ಅಗತ್ಯವಿರುವವರಿಗೆ ಆಹಾರ ಮತ್ತು ಅಗತ್ಯ ವಸ್ತುಗಳ ವಿತರಣೆ',
+      en: 'To promote learning activities where children can relate what they study to the practical world — connecting the dots between lessons, real-world experience and their own interests.',
+      kn: 'ಮಕ್ಕಳು ಕಲಿತದ್ದನ್ನು ನಿಜ ಜೀವನದ ಅನುಭವದೊಂದಿಗೆ ಜೋಡಿಸುವ ಕಲಿಕಾ ಚಟುವಟಿಕೆಗಳನ್ನು ಉತ್ತೇಜಿಸಿ, ವಿವಿಧ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಆಸಕ್ತಿ ಬೆಳೆಸುವುದು.',
     },
     {
-      en: 'Organise free health camps and health awareness drives',
-      kn: 'ಉಚಿತ ಆರೋಗ್ಯ ಶಿಬಿರ ಮತ್ತು ಆರೋಗ್ಯ ಜಾಗೃತಿ ಕಾರ್ಯಕ್ರಮಗಳು',
+      en: 'To conduct personality development programs and seminars focused on the six quotients (6Qs) — Intelligence, Adversity, Physical, Emotional, Spiritual and Creative — helping children understand each quotient’s impact on daily life and build a strong personality.',
+      kn: 'ಬುದ್ಧಿ, ಸಂಕಷ್ಟ ನಿರ್ವಹಣೆ, ದೈಹಿಕ, ಭಾವನಾತ್ಮಕ, ಆಧ್ಯಾತ್ಮಿಕ ಮತ್ತು ಸೃಜನಶೀಲ — ಈ ಆರು ಗುಣಗಳ (6Q) ಮೇಲೆ ಕೇಂದ್ರಿತ ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ನಡೆಸಿ, ಸದೃಢ ವ್ಯಕ್ತಿತ್ವ ರೂಪಿಸುವುದು.',
     },
     {
-      en: 'Care for the elderly and support community welfare',
-      kn: 'ವೃದ್ಧರ ಸೇವೆ ಮತ್ತು ಸಮುದಾಯ ಕಲ್ಯಾಣ ಕಾರ್ಯಗಳು',
+      en: 'To identify children in rural India with talent in sports, art, music and literature, and motivate them with the right direction and support — building self-esteem and mental alertness while reducing stress and anxiety.',
+      kn: 'ಗ್ರಾಮೀಣ ಭಾರತದಲ್ಲಿ ಕ್ರೀಡೆ, ಕಲೆ, ಸಂಗೀತ ಮತ್ತು ಸಾಹಿತ್ಯದಲ್ಲಿ ಪ್ರತಿಭೆ ಇರುವ ಮಕ್ಕಳನ್ನು ಗುರುತಿಸಿ, ಸರಿಯಾದ ಮಾರ್ಗದರ್ಶನ ಮತ್ತು ಬೆಂಬಲದೊಂದಿಗೆ ಪ್ರೋತ್ಸಾಹಿಸುವುದು.',
+    },
+    {
+      en: 'To instil cleanliness among children — of mind, body, home, neighbourhood, city and country — keeping them healthy and preserving the environment.',
+      kn: 'ಮನಸ್ಸು, ದೇಹ, ಮನೆ, ಬಡಾವಣೆ, ನಗರ ಮತ್ತು ದೇಶದ ಸ್ವಚ್ಛತೆಯ ಅಭ್ಯಾಸವನ್ನು ಮಕ್ಕಳಲ್ಲಿ ಬೆಳೆಸುವುದು — ಆರೋಗ್ಯ ಮತ್ತು ಪರಿಸರ ರಕ್ಷಣೆಗಾಗಿ.',
+    },
+    {
+      en: 'To save the earth by planting more trees that keep air, soil and water clean; to conserve birds and animals for a healthy ecological balance; and to encourage farmers to adopt innovative agricultural practices and technologies.',
+      kn: 'ಗಾಳಿ, ಮಣ್ಣು, ನೀರನ್ನು ಶುದ್ಧವಾಗಿಡಲು ಹೆಚ್ಚು ಗಿಡ ನೆಡುವುದು; ಪರಿಸರ ಸಮತೋಲನಕ್ಕಾಗಿ ಪಕ್ಷಿ-ಪ್ರಾಣಿಗಳ ಸಂರಕ್ಷಣೆ; ರೈತರಿಗೆ ನವೀನ ಕೃಷಿ ಪದ್ಧತಿ ಮತ್ತು ತಂತ್ರಜ್ಞಾನಗಳ ಪ್ರೋತ್ಸಾಹ.',
+    },
+    {
+      en: 'To help orphaned children and the aged through orphanages and old age homes; to organise blood and hair donation camps and create awareness; to distribute clothes, food and stationery to poor children; and to offer scholarships and monetary aid to needy students and scholars in India.',
+      kn: 'ಅನಾಥ ಮಕ್ಕಳು ಮತ್ತು ವೃದ್ಧರಿಗೆ ಅನಾಥಾಶ್ರಮ, ವೃದ್ಧಾಶ್ರಮಗಳ ಮೂಲಕ ನೆರವು; ರಕ್ತದಾನ ಮತ್ತು ಕೇಶದಾನ ಶಿಬಿರ ಹಾಗೂ ಜಾಗೃತಿ; ಬಡ ಮಕ್ಕಳಿಗೆ ಬಟ್ಟೆ, ಆಹಾರ, ಲೇಖನ ಸಾಮಗ್ರಿ ವಿತರಣೆ; ಅಗತ್ಯವಿರುವ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ವಿದ್ಯಾರ್ಥಿವೇತನ ಮತ್ತು ಧನಸಹಾಯ.',
+    },
+    {
+      en: 'To guide people suffering from mental-health issues and addictions to rehabilitation care; to support visually and physically challenged individuals; to connect the bedridden and chronically ill poor to palliative care centres; and to work with other NGOs during pandemics to provide medical relief.',
+      kn: 'ಮಾನಸಿಕ ಆರೋಗ್ಯ ಸಮಸ್ಯೆ ಮತ್ತು ವ್ಯಸನಗಳಿಂದ ಬಳಲುವವರಿಗೆ ಪುನರ್ವಸತಿ ಆರೈಕೆಗೆ ಮಾರ್ಗದರ್ಶನ; ದೃಷ್ಟಿ ಮತ್ತು ದೈಹಿಕ ವಿಕಲಚೇತನರಿಗೆ ಬೆಂಬಲ; ಹಾಸಿಗೆ ಹಿಡಿದ ಬಡ ರೋಗಿಗಳಿಗೆ ಪ್ಯಾಲಿಯೇಟಿವ್ ಆರೈಕೆ ಕೇಂದ್ರಗಳ ಸಂಪರ್ಕ; ಸಾಂಕ್ರಾಮಿಕ ಸಂದರ್ಭದಲ್ಲಿ ಇತರ ಸಂಸ್ಥೆಗಳೊಂದಿಗೆ ವೈದ್ಯಕೀಯ ನೆರವು.',
+    },
+    {
+      en: 'To give relief to the poor and distressed during natural calamities in India; to establish institutions for religious, cultural and social advancement; and to provide donations or contributions to other charitable trusts in India.',
+      kn: 'ಪ್ರಕೃತಿ ವಿಕೋಪದ ಸಂದರ್ಭದಲ್ಲಿ ಬಡವರಿಗೆ ಮತ್ತು ಸಂಕಷ್ಟದಲ್ಲಿರುವವರಿಗೆ ಪರಿಹಾರ; ಧಾರ್ಮಿಕ, ಸಾಂಸ್ಕೃತಿಕ ಮತ್ತು ಸಾಮಾಜಿಕ ಪ್ರಗತಿಗಾಗಿ ಸಂಸ್ಥೆಗಳ ಸ್ಥಾಪನೆ; ಭಾರತದ ಇತರ ಚಾರಿಟಬಲ್ ಟ್ರಸ್ಟ್‌ಗಳಿಗೆ ದೇಣಿಗೆ.',
     },
   ] as L[],
 };
@@ -82,42 +99,59 @@ export interface Program {
   emoji: string;
 }
 
-// TODO: replace with the trust's real programs
 export const programs: Program[] = [
   {
-    slug: 'education',
-    emoji: '📚',
-    name: { en: 'Education Support', kn: 'ವಿದ್ಯಾ ಸಹಾಯ' },
+    slug: 'gamified-learning',
+    emoji: '🎲',
+    name: { en: 'Gamified Applied Learning', kn: 'ಆಟದ ಮೂಲಕ ಅನ್ವಯಿಕ ಕಲಿಕೆ' },
     summary: {
-      en: 'School kits, fees and learning support for children whose families cannot afford them.',
-      kn: 'ಶಾಲಾ ಕಿಟ್, ಶುಲ್ಕ ಮತ್ತು ಕಲಿಕೆಯ ನೆರವು — ಆರ್ಥಿಕವಾಗಿ ಹಿಂದುಳಿದ ಕುಟುಂಬಗಳ ಮಕ್ಕಳಿಗೆ.',
+      en: 'Physical and virtual gamified programs and seminars on applied education for rural students — connecting lessons to the practical world, so learning goes beyond books.',
+      kn: 'ಗ್ರಾಮೀಣ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಪ್ರತ್ಯಕ್ಷ ಮತ್ತು ಆನ್‌ಲೈನ್ ಗೇಮಿಫೈಡ್ ಕಾರ್ಯಕ್ರಮಗಳು — ಪಾಠವನ್ನು ನಿಜ ಜೀವನದೊಂದಿಗೆ ಜೋಡಿಸಿ, ಪುಸ್ತಕದ ಆಚೆಗಿನ ಕಲಿಕೆ.',
     },
   },
   {
-    slug: 'anna-daana',
-    emoji: '🍛',
-    name: { en: 'Anna Daana — Food Distribution', kn: 'ಅನ್ನ ದಾನ' },
+    slug: '6q-personality',
+    emoji: '🧠',
+    name: { en: '6Q Personality Development', kn: '6Q ವ್ಯಕ್ತಿತ್ವ ವಿಕಸನ' },
     summary: {
-      en: 'Cooked meals and grocery kits for families, daily-wage workers and people on the street.',
-      kn: 'ಕುಟುಂಬಗಳಿಗೆ, ದಿನಗೂಲಿ ಕಾರ್ಮಿಕರಿಗೆ ಮತ್ತು ನಿರಾಶ್ರಿತರಿಗೆ ಊಟ ಮತ್ತು ದಿನಸಿ ಕಿಟ್ ವಿತರಣೆ.',
+      en: 'Programs on the six quotients — Intelligence, Adversity, Physical, Emotional, Spiritual and Creative — so children understand each one’s impact and grow into strong personalities.',
+      kn: 'ಬುದ್ಧಿ, ಸಂಕಷ್ಟ ನಿರ್ವಹಣೆ, ದೈಹಿಕ, ಭಾವನಾತ್ಮಕ, ಆಧ್ಯಾತ್ಮಿಕ, ಸೃಜನಶೀಲ — ಆರು ಗುಣಗಳ ಕಾರ್ಯಕ್ರಮಗಳ ಮೂಲಕ ಸದೃಢ ವ್ಯಕ್ತಿತ್ವ ನಿರ್ಮಾಣ.',
     },
   },
   {
-    slug: 'health',
-    emoji: '🩺',
-    name: { en: 'Health Camps', kn: 'ಆರೋಗ್ಯ ಶಿಬಿರ' },
+    slug: 'rural-talent',
+    emoji: '🏅',
+    name: { en: 'Rural Talent Support', kn: 'ಗ್ರಾಮೀಣ ಪ್ರತಿಭೆಗೆ ಪ್ರೋತ್ಸಾಹ' },
     summary: {
-      en: 'Free check-up camps with local doctors, plus help reaching hospitals when treatment is needed.',
-      kn: 'ಸ್ಥಳೀಯ ವೈದ್ಯರೊಂದಿಗೆ ಉಚಿತ ತಪಾಸಣಾ ಶಿಬಿರಗಳು ಮತ್ತು ಚಿಕಿತ್ಸೆಗೆ ನೆರವು.',
+      en: 'Identifying children talented in sports, art, music and literature, and motivating them with the right direction and support — building self-esteem and reducing stress.',
+      kn: 'ಕ್ರೀಡೆ, ಕಲೆ, ಸಂಗೀತ, ಸಾಹಿತ್ಯದ ಪ್ರತಿಭಾವಂತ ಮಕ್ಕಳನ್ನು ಗುರುತಿಸಿ ಸರಿಯಾದ ಮಾರ್ಗದರ್ಶನ ಮತ್ತು ಬೆಂಬಲ ನೀಡುವುದು.',
     },
   },
   {
-    slug: 'community',
+    slug: 'clean-green',
+    emoji: '🌳',
+    name: { en: 'Cleanliness & Green Earth', kn: 'ಸ್ವಚ್ಛತೆ ಮತ್ತು ಹಸಿರು ಭೂಮಿ' },
+    summary: {
+      en: 'Cleanliness habits from mind to country; tree planting for clean air, soil and water; conservation of birds and animals; and innovative practices for farmers.',
+      kn: 'ಮನಸ್ಸಿನಿಂದ ದೇಶದವರೆಗೆ ಸ್ವಚ್ಛತೆ; ಗಿಡ ನೆಡುವಿಕೆ; ಪಕ್ಷಿ-ಪ್ರಾಣಿ ಸಂರಕ್ಷಣೆ; ರೈತರಿಗೆ ನವೀನ ಕೃಷಿ ಪದ್ಧತಿಗಳ ಪ್ರೋತ್ಸಾಹ.',
+    },
+  },
+  {
+    slug: 'care-giving',
     emoji: '🤝',
-    name: { en: 'Elder & Community Care', kn: 'ವೃದ್ಧರ ಮತ್ತು ಸಮುದಾಯ ಸೇವೆ' },
+    name: { en: 'Care & Giving', kn: 'ಆರೈಕೆ ಮತ್ತು ದಾನ' },
     summary: {
-      en: 'Support for elders living alone and a helping hand wherever the community needs one.',
-      kn: 'ಒಂಟಿಯಾಗಿರುವ ವೃದ್ಧರಿಗೆ ಆಸರೆ ಮತ್ತು ಸಮುದಾಯಕ್ಕೆ ಬೇಕಾದಲ್ಲಿ ಸಹಾಯಹಸ್ತ.',
+      en: 'Help for orphaned children and the aged; blood and hair donation camps; clothes, food and stationery for poor children; scholarships and monetary aid for needy students.',
+      kn: 'ಅನಾಥ ಮಕ್ಕಳು ಮತ್ತು ವೃದ್ಧರಿಗೆ ನೆರವು; ರಕ್ತದಾನ-ಕೇಶದಾನ ಶಿಬಿರ; ಬಟ್ಟೆ, ಆಹಾರ, ಲೇಖನ ಸಾಮಗ್ರಿ ವಿತರಣೆ; ವಿದ್ಯಾರ್ಥಿವೇತನ ಮತ್ತು ಧನಸಹಾಯ.',
+    },
+  },
+  {
+    slug: 'health-relief',
+    emoji: '🩺',
+    name: { en: 'Health & Relief', kn: 'ಆರೋಗ್ಯ ಮತ್ತು ಪರಿಹಾರ' },
+    summary: {
+      en: 'Guidance to rehabilitation for mental health and addiction; support for the visually and physically challenged; palliative care connections; and relief during pandemics and natural calamities.',
+      kn: 'ಮಾನಸಿಕ ಆರೋಗ್ಯ ಮತ್ತು ವ್ಯಸನ ಮುಕ್ತಿಗೆ ಮಾರ್ಗದರ್ಶನ; ವಿಕಲಚೇತನರಿಗೆ ಬೆಂಬಲ; ಪ್ಯಾಲಿಯೇಟಿವ್ ಆರೈಕೆ ಸಂಪರ್ಕ; ವಿಪತ್ತಿನ ಸಂದರ್ಭದಲ್ಲಿ ಪರಿಹಾರ.',
     },
   },
 ];
@@ -153,8 +187,8 @@ export const donate = {
 export const volunteer = {
   heading: { en: 'Volunteer with us', kn: 'ಸ್ವಯಂಸೇವಕರಾಗಿ' } as L,
   body: {
-    en: 'Time is as valuable as money. If you can join a food distribution, teach children for an hour, or help at a health camp, we would love to have you.',
-    kn: 'ಹಣದಷ್ಟೇ ಸಮಯವೂ ಅಮೂಲ್ಯ. ಅನ್ನ ವಿತರಣೆ, ಮಕ್ಕಳಿಗೆ ಪಾಠ, ಅಥವಾ ಆರೋಗ್ಯ ಶಿಬಿರದಲ್ಲಿ ನೆರವು — ನಿಮ್ಮ ಸಹಭಾಗಿತ್ವಕ್ಕೆ ಸ್ವಾಗತ.',
+    en: 'Time is as valuable as money. If you can run a gamified learning session, mentor children, join a tree-planting drive, or help at a donation camp, we would love to have you.',
+    kn: 'ಹಣದಷ್ಟೇ ಸಮಯವೂ ಅಮೂಲ್ಯ. ಕಲಿಕಾ ಕಾರ್ಯಕ್ರಮ ನಡೆಸುವುದು, ಮಕ್ಕಳಿಗೆ ಮಾರ್ಗದರ್ಶನ, ಗಿಡ ನೆಡುವ ಅಭಿಯಾನ, ಅಥವಾ ದಾನ ಶಿಬಿರದಲ್ಲಿ ನೆರವು — ನಿಮ್ಮ ಸಹಭಾಗಿತ್ವಕ್ಕೆ ಸ್ವಾಗತ.',
   } as L,
   cta: { en: 'I want to volunteer', kn: 'ನಾನು ಸ್ವಯಂಸೇವಕನಾಗುತ್ತೇನೆ' } as L,
 };

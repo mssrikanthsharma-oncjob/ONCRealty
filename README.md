@@ -16,10 +16,8 @@ operations portal for daily work tracking; Phase 3 adds automation and reporting
 
 ## Editing content
 
-**All text lives in one file: [`src/content/site.ts`](src/content/site.ts)**, with English and Kannada side by side. Search for `TODO` in that file — those items are placeholders that must be replaced with the trust's real details:
+**All text lives in one file: [`src/content/site.ts`](src/content/site.ts)**, with English and Kannada side by side. The mission, objectives and programs are the trust's real ones. Search for `TODO` in that file — the remaining placeholders to replace are:
 
-- Mission and objectives text (from onctrust.in / the trust deed)
-- Real programs
 - UPI ID and bank account details (`/donate`)
 - Contact email, phone, and address
 - Trustee names, registration / 80G details

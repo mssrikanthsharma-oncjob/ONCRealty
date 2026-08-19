@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: '%s · ONC Trust',
   },
   description:
-    'O Nanna Chetana Charitable Trust — serving the community through education support, food distribution, health camps and elder care.',
+    'O Nanna Chetana Charitable Trust — gamified applied education for children in rural India, 6Q personality development, talent support, environment care and community welfare.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
